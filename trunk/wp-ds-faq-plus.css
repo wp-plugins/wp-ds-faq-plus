@@ -1,0 +1,73 @@
+/* 2011.09.13-14 (1.0.13) for latest list */
+
+div#wp_ds_faq_plus_latest_information {
+}
+
+/* For not publish data */
+div#wp_ds_faq_plus_latest_information .private{
+        color: gray;
+}
+
+div#wp_ds_faq_plus_latest_information ul li {
+	clear: both;
+}
+
+
+div#wp_ds_faq_plus_latest_information dl {
+        margin-left: -7em;
+        padding: 0;
+        line-height: 1.6em; 
+}
+
+div#wp_ds_faq_plus_latest_information dt {
+        clear: left;
+	float: left;
+	background-image:url("src/share/images/information_icon.gif");
+	background-repeat: no-repeat;
+	background-position: 1em 0.3em;
+	width: 15%;
+	text-indent: 35px;
+	color: #333333;
+	font-weight: bold;
+}
+
+div#wp_ds_faq_plus_latest_information dd {
+	float: right;
+	width: 75%;
+}
+
+div#wp_ds_faq_plus_latest_information table {
+        border: 1px #E3E3E3 solid;
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+
+div#wp_ds_faq_plus_latest_information th{
+        padding: 5px;
+        border: #E3E3E3 solid;
+        border-width: 0 0 1px 1px;
+        background: #F5F5F5;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+}
+
+div#wp_ds_faq_plus_latest_information td{
+        padding: 5px;
+        border: 1px #E3E3E3 solid;
+        border-width: 0 0 1px 1px;
+        text-align: left;
+        vertical-align: middle;
+}
+div#wp_ds_faq_plus_latest_information td.category{
+        padding: 5px;
+        width: 150px;
+        border: 1px #E3E3E3 solid;
+        border-width: 0 0 1px 1px;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+}
+
+
+
