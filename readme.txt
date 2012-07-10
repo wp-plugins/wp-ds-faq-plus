@@ -8,20 +8,21 @@ Stable tag: 1.0.14
 
 == Description ==
 
-WP DS FAQ Plus is the expand of WP DS FAQ  plugin. The plugin bases on WP DS FAQ 1.3.3. This plugin includes the fixed some issues (Quotation and Security, such as SQL Injection and CSRF. ) , Japanese translation, improvement of interface, and SSL Admin setting.
+WP DS FAQ Plus is the expand of WP DS FAQ plugin. The plugin bases on WP DS FAQ 1.3.3. This plugin includes the fixed some issues (Quotation and Security, such as SQL Injection and CSRF. ) , Japanese translation, improvement of interface, and SSL Admin setting.
 
 == Installation ==
 
 Download: <a href="http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html">WP DS FAQ Plus</a>
 
 1. Extract the source compress file and upload "wp-ds-faq-plus" folder to the plugin folder (wp-content/plugins/) in Wordpress.
-2. If you use "WP DS FAQ" plugin, please disactives the plugin.
-3. Enable "wp ds faq plus" plugin.
+2. If you use "WP DS FAQ" plugin, please disactivate the plugin.
+3. Enable "WP DS FAQ Plus" plugin.
 
 = Usage =
 
 * Please ignore the error message if the 413 characters output error appears when you install it. The error is due to the Japanese comments in PHP code. 
-* The data format is the same as "WP DS FAQ" plugin. Therefore, you can switch between "WP DS FAQ" plugin and "WP DS FAQ Plus" plugin. * Please see the following change log about the compatibility of old version and "WP DS FAQ". * By version 1.0.12, the compatibility with "WP DS FAQ" was recovered.
+* The data format is the same as "WP DS FAQ" plugin. Therefore, you can switch between "WP DS FAQ" plugin and "WP DS FAQ Plus" plugin.
+* Please see the change log in the following web site about the compatibility of old version and "WP DS FAQ". 
 
 About the detail information, please see the following site.
 
@@ -29,6 +30,11 @@ About the detail information, please see the following site.
 - Japanese: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_ja.html
 
 == Frequently Asked Questions ==
+
+= Is it compatible between "WP DS FAQ Plus" and "WP DS FAQ"? =
+
+Yes, this plugin supports the compatibility with "WP DS FAQ" plugin.
+When this plugin is deactivated and "WP DS FAQ" is activated, the special function of this plugin will be automatically ignored. And when this plugin is activated ("WP DS FAQ" is deactivated), the function will automatically work.
 
 == Screenshots ==
 
