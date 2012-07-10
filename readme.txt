@@ -8,7 +8,7 @@ Stable tag: 1.0.14
 
 == Description ==
 
-WP DS FAQ Plus is the expand of WP DS FAQ plugin. The plugin bases on WP DS FAQ 1.3.3. This plugin includes the fixed some issues (Quotation and Security, such as SQL Injection and CSRF. ) , Japanese translation, improvement of interface, and SSL Admin setting.
+ WP DS FAQ Plus is the expand of WP DS FAQ plugin. The plugin bases on WP DS FAQ 1.3.3. This plugin includes the fixed some issues (Quotation and Security, such as SQL Injection and CSRF. ) , Japanese translation, improvement of interface, and SSL Admin setting.
 
 == Installation ==
 
@@ -33,18 +33,18 @@ About the detail information, please see the following site.
 
 = Is it compatible between "WP DS FAQ Plus" and "WP DS FAQ"? =
 
-Yes, this plugin supports the compatibility with "WP DS FAQ" plugin.
+ Yes, this plugin supports the compatibility with "WP DS FAQ" plugin.
 When this plugin is deactivated and "WP DS FAQ" is activated, the special function of this plugin will be automatically ignored. And when this plugin is activated ("WP DS FAQ" is deactivated), the function will automatically work.
 
 == Screenshots ==
 
-- http://kitaney.jp/~kitani/tools/wordpress/images/image_adminmenu01_en.png
-- http://kitaney.jp/~kitani/tools/wordpress/images/image_adminmenu02_en.png
-- http://kitaney.jp/~kitani/tools/wordpress/images/howtouse-shortcode_en.png
-- http://kitaney.jp/~kitani/tools/wordpress/images/image_faqsidemenu_header_en.png
-- http://kitaney.jp/~kitani/tools/wordpress/images/image_editdisplay_en.png
-- http://kitaney.jp/~kitani/tools/wordpress/images/image_faqsidemenu_en.png
-- http://kitaney.jp/~kitani/tools/wordpress/images/image_linkage_wp_postrating_plugin_ja.png
+http://kitaney.jp/~kitani/tools/wordpress/images/image_adminmenu01_en.png
+http://kitaney.jp/~kitani/tools/wordpress/images/image_adminmenu02_en.png
+http://kitaney.jp/~kitani/tools/wordpress/images/howtouse-shortcode_en.png
+http://kitaney.jp/~kitani/tools/wordpress/images/image_faqsidemenu_header_en.png
+http://kitaney.jp/~kitani/tools/wordpress/images/image_editdisplay_en.png
+http://kitaney.jp/~kitani/tools/wordpress/images/image_faqsidemenu_en.png
+http://kitaney.jp/~kitani/tools/wordpress/images/image_linkage_wp_postrating_plugin_ja.png
 
 == Changelog ==
 
