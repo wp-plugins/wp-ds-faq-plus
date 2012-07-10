@@ -6,9 +6,11 @@ Requires at least: 3.0
 Tested up to: 3.4.1
 Stable tag: 1.0.14
 
+WP DS FAQ Plus is the plugin which was improved based on WP DS FAQ 1.3.3. 
+ 
 == Description ==
 
- WP DS FAQ Plus is the expand of WP DS FAQ plugin. The plugin bases on WP DS FAQ 1.3.3. This plugin includes the fixed some issues (Quotation and Security, such as SQL Injection and CSRF. ) , Japanese translation, improvement of interface, and SSL Admin setting.
+ WP DS FAQ Plus is the plugin which was improved based on WP DS FAQ 1.3.3.  This plugin includes the fixed some issues (Quotation and Security, such as SQL Injection and CSRF. ) , Japanese translation, improvement of interface, and SSL Admin setting.
 
 == Installation ==
 
