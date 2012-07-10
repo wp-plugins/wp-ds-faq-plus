@@ -38,13 +38,9 @@ When this plugin is deactivated and "WP DS FAQ" is activated, the special functi
 
 == Screenshots ==
 
-http://kitaney.jp/~kitani/tools/wordpress/images/image_adminmenu01_en.png
-http://kitaney.jp/~kitani/tools/wordpress/images/image_adminmenu02_en.png
-http://kitaney.jp/~kitani/tools/wordpress/images/howtouse-shortcode_en.png
-http://kitaney.jp/~kitani/tools/wordpress/images/image_faqsidemenu_header_en.png
-http://kitaney.jp/~kitani/tools/wordpress/images/image_editdisplay_en.png
-http://kitaney.jp/~kitani/tools/wordpress/images/image_faqsidemenu_en.png
-http://kitaney.jp/~kitani/tools/wordpress/images/image_linkage_wp_postrating_plugin_ja.png
+Please see the following web site.
+- English: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html
+- Japanese: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_ja.html
 
 == Changelog ==
 
