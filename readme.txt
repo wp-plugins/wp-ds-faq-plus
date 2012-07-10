@@ -38,10 +38,7 @@ When this plugin is deactivated and "WP DS FAQ" is activated, the special functi
 
 == Screenshots ==
 
-Please see the following web site.
-
-- English: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html
-- Japanese: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_ja.html
+Please see <a href="http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html">http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html</a>
 
 == Changelog ==
 
