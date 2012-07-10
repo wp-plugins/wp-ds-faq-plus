@@ -1,6 +1,5 @@
 === WP DS FAQ Plus ===
 Contributors: kimipooh
-Donate link: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html
 Tags: faq, answer, question, documentation, pages, page, ajax
 Requires at least: 3.0
 Tested up to: 3.4.1
