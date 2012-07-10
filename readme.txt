@@ -118,7 +118,7 @@ Establishment of admin menu for FAQ in the Settings.
 - (Fixed) Some Security vulnerabilities, but you don't need to worry because this fix is 
           for multi protection.
 - (Fixed) Design of FAQ category title
-- (Fixed) Improvement of TimeZone processing. (Establishment of "convert_timezone_data" function)
+- (Fixed) Improvement of TimeZone processing. (Establishment of "convert_timezone_data" function. By this processing, WordPress 3.x does not support the manual offsets (ex. UTF+9), but the plugin was supported in not only PHP5.2 or above but also PHP5.1 or earlier version.
 - (Added) New Function of latest FAQ List.
 
 = 1.0.14 (September 22, 2011) =
