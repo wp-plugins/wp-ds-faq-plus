@@ -144,64 +144,115 @@ msgstr "ショートコード:"
 msgid "Display:"
 msgstr "表示:"
 
-# Custom 2011.04.01 By Kitani.
+###
+### Translation for only WP-DS-FAQ-Plus since 01/04/2001 By Kitani.
+###
+
+#: Near Words of "WP DS FAQ Plus" (01/04/2011 By Kitani.)
 msgid  "DS FAQ Plus"
-msgstr "ＦＡＱ"
-msgid  "WP DS FAQ Plus"
 msgstr "ＦＡＱ"
 msgid  "FAQ"
 msgstr "ＦＡＱ"
-# Custom 2011.07.01 By Kitani.
+
+#: wp-ds-faq.php:641, 649, 650, 757, 1202 (01/04/2011 By Kitani.)
+msgid  "WP DS FAQ Plus"
+msgstr "ＦＡＱ"
+
+#: wp-ds-faq.php:527 (01/07/2011 By Kitani.)
 msgid  "Under Construction."
 msgstr "作成中"
-# Custom 2011.07.19 By Kitani.
+
+### 19/07/2011 By Kitani.
+#: wp-ds-faq.php:1537
 msgid  "Sort Key:"
 msgstr "ソートキー"
+
+#: wp-ds-faq.php:1564:
 msgid  "Order by:"
 msgstr "ソート順"
+
+#: ajax.php:615, wp-ds-faq.php:1545
 msgid  "Custom"
 msgstr "カスタム"
+
+#: ajax.php:617, wp-ds-faq.php:1551
 msgid  "Last modified"
 msgstr "最終更新日"
+
+#: ajax.php:619, wp-ds-faq.php:1558
 msgid  "Answer Name"
 msgstr "質問名"
+
+#: ajax.php:665, wp-ds-faq.php:794
 msgid  "Ascending"
 msgstr "昇順"
+
+#: ajax.php:667, wp-ds-faq.php:794
 msgid  "Descending"
 msgstr "降順"
 
-# Custom 2011.08.24-25 for WP DS FAQ Plus 1.0.11 By Kitani. 
+### 24-25/08/2011 (1.0.11) By Kitani. 
+
+#: wp-ds-faq.php:749
 msgid  "Updated"
 msgstr "更新しました"
+
+#: wp-ds-faq.php:649, 650, 757
 msgid  "WP DS FAQ Plus Admin Settings"
 msgstr "WP DS FAQ Plus 管理設定"
-msgid  "By enabling this option, the rating button in WP-PostRatings plugin can be displayed in each FAQ messages"
-msgstr "有効にすることで、WP-PostRatingsプラグインを使った記事評価ボタンを各FAQに表示させることができます"
-msgid  "Please install or enable WP-PostRatings plugin"
-msgstr "WP-PostRatingsプラグインをインストールするか有効にしてください"
-msgid  "(WP-PostRating plugin is already enabled.)"
-msgstr "（WP-PostRatingプラグインは有効になっています）"
+
+#: wp-ds-faq.php:885
+msgid  "By enabling this option, the rating button in WP-PostRatings plugin can be displayed in each FAQ messages."
+msgstr "有効にすることで、WP-PostRatingsプラグインを使った記事評価ボタンを各FAQに表示させることができます。"
+
+#: wp-ds-faq.php:881
+msgid  "Please install or activate WP-PostRatings plugin."
+msgstr "WP-PostRatingsプラグインをインストールするか有効にしてください。"
+
+#: wp-ds-faq.php:882
+msgid  "(WP-PostRatings plugin is already activated.)"
+msgstr "（WP-PostRatingプラグインは有効になっています。）"
+
+#: wp-ds-faq.php:812, 840, 872, 890, 908
 msgid  "Save Settings"
 msgstr "設定の保存"
-msgid  "Enable Ratings Display"
-msgstr "評価の表示を有効にする"
-msgid  "First, please install and activate WP-PostRating plugin"
-msgstr "WP-PostRatingプラグインのインストールが必要です"
-msgid  "Please install and activate WP-PostRating plugin"
+
+#: wp-ds-faq.php:882
+msgid  "Enable Ratings Display."
+msgstr "評価の表示を有効にする。"
+
+#: wp-ds-faq.php:884
+msgid  "First, please install and activate WP-PostRatings plugin."
+msgstr "WP-PostRatingプラグインのインストールが必要です。"
+
+#: wp-ds-faq.php:881
+msgid  "Please install and activate WP-PostRating plugin."
 msgstr "WP-PostRatingプラグインのインストール（有効化）してください"
+
+#: wp-ds-faq.php:765
 msgid  "* You don't have the permissions for changing the settings."
 msgstr "※ 設定変更の権限がありません"
+
+#: wp-ds-faq.php:767
 msgid  "* You have all permissions for changing the settings."
 msgstr "※ すべての設定変更の権限を持っています"
+
+#: wp-ds-faq.php:820
 msgid  "Permissions"
 msgstr "権限"
+
+#: wp-ds-faq.php:762
 msgid   "Note"
 msgstr "注記"
 
+#: wp-ds-faq.php:769
 msgid "* wp-ds-faq-plus.css: The layout and design for FAQ pages."
 msgstr "※ wp-ds-faq-plus.css: ＦＡＱページのデザインとレイアウトの設定ファイルです。"
+
+#: wp-ds-faq.php:770
 msgid "* wp-ds-adminfaq.css: The layout and design for admin pages."
 msgstr "※ wp-ds-adminfaq.css: ＦＡＱ管理画面のデザインとレイアウトの設定ファイルです。"
+
 
 msgid  "General Settings"
 msgstr "一般設定"

@@ -15,6 +15,9 @@
 ** - Add Visible options with 1.0.13
 ** September 22, 2011
 ** - Fixed bug: $this->settings_editor_permission --> $settings_editor_permission 
+** October 5, 2012 (1.0.15)
+** - Added the error explanations and translation.
+** - Fixed and Arranged the translation file.
 **/
 require_once(preg_replace('|wp-content.*$|','', __FILE__) . 'wp-config.php');
 
@@ -24,11 +27,12 @@ header('Cache-control: max-age=2600000, must-revalidate', true);
 //function error(){ die( "alert('Что-то не заработало :(')" ); }
 // 英語に直しておく By Kitani.
 // 2011.07.19: 1.0.9: Detail information
+// 2012.10.05: 1.0.15: Added Traslation system.
 function error($str=""){
   if($str != "") 
-    die( "alert('Something did not work. Error:" .$str. "')" ); 
+    die( "alert('" . _e($str, 'wp-ds-faq') . "')" ); 
   else
-    die( "alert('Something did not work.')" );
+    die( "alert('" . _e('Something did not work.','wp-ds-faq') . "')" );
 }
 
 // 1.0.4: CSRF対策（2011.04.07) By Kitani.
