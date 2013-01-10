@@ -2,8 +2,8 @@
 Contributors: kimipooh
 Tags: faq, answer, question, documentation, pages, page, ajax
 Requires at least: 3.0
-Tested up to: 3.4.2
-Stable tag: 1.0.15
+Tested up to: 3.5
+Stable tag: 1.0.16
 
 WP DS FAQ Plus is the plugin which was improved based on WP DS FAQ 1.3.3. 
  
@@ -13,7 +13,7 @@ WP DS FAQ Plus is the plugin which was improved based on WP DS FAQ 1.3.3.
 
 == Installation ==
 
-Download: <a href="http://kitaney.jp/‾kitani/tools/wordpress/wp-ds-faq-plus_en.html">WP DS FAQ Plus</a>
+Download: <a href="http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html">WP DS FAQ Plus</a>
 
 1. Extract the source compress file and upload "wp-ds-faq-plus" folder to the plugin folder (wp-content/plugins/) in Wordpress.
 2. If you use "WP DS FAQ" plugin, please disactivate the plugin.
@@ -127,6 +127,9 @@ Establishment of admin menu for FAQ in the Settings.
 
 = 1.0.15 (December 11, 2012) =
 - (Fixed) Copyright Information
+
+= 1.0.16 (January 10, 2013) =
+- (Fixed) "Header and CSS Settings" in the"Admin Settings" cannot be saved or restored.
 
 == Upgrade Notice ==
 

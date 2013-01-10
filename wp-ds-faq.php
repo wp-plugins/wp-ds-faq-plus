@@ -3,7 +3,7 @@
 Plugin Name: WP DS FAQ Plus
 Plugin URI: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html
 Description: WP DS FAQ Plus is the expand of WP DS FAQ  plugin. The plugin bases on WP DS FAQ 1.3.3. This plugin includes the fixed some issues (Quotation and Security, such as SQL Injection and CSRF. ) , Japanese translation, improvement of interface, and SSL Admin setting.
-Version: 1.0.15 (December 11, 2012)
+Version: 1.0.16
 Author: Kimiya Kitani
 Author URI: http://kitaney.jp/~kitani/
 */
@@ -60,7 +60,7 @@ class dsfaq{
         $this->wp_ds_faq_plus_default_array['wp_ds_faq_plus_db_ver']   = '0.1'; // 2011.08.29 (1.0.12) Add custom_mode to dsfaq_name table for custom sort.
         $this->wp_ds_faq_default_array['wp_ds_faq_showcopyright'] = true;
         $this->wp_ds_faq_default_array['wp_ds_faq_ver']           = '133'; // 2011.08.22 (1.0.10): Change 132 to 133
-        $this->wp_ds_faq_plus_default_array['wp_ds_faq_plus_ver']      = '1015'; // 2011.08.29 (1.0.12): Version 
+        $this->wp_ds_faq_plus_default_array['wp_ds_faq_plus_ver']      = '1016'; // 2011.08.29 (1.0.12): Version 
         $this->wp_ds_faq_default_array['wp_ds_faq_h1']            = '<h3>';
         $this->wp_ds_faq_default_array['wp_ds_faq_h2']            = '</h3>';
         $this->wp_ds_faq_default_array['wp_ds_faq_css']           = "<style type='text/css'>\n".
@@ -752,6 +752,46 @@ class dsfaq{
 
 		// 設定画面表示（Display of Setting page)
 ?>
+<?php
+		// ヘッダとカスケード（CSS）設定が保存や復元できなくなっていた件の修正 1.0.16: 2013.01.10
+		// 1.0.11からの問題で下記のJavaScriptが抜けていた。
+        // use JavaScript SACK library for Ajax
+        wp_print_scripts( array( 'sack' ));
+?>
+        <script>
+        //<![CDATA[
+        function dsfaq_save_settings(){
+            var dsfaq_h1    = document.getElementById("dsfaq_h1").value;
+            var dsfaq_h2    = document.getElementById("dsfaq_h2").value;
+            var dsfaq_css   = document.getElementById("dsfaq_css").value;
+            var dsfaq_copyr = document.getElementById("dsfaq_copyr").checked;
+            document.getElementById("dsfaq_progress").innerHTML = '<img src="<?php echo $this->plugurl; ?>img/ajax-loader.gif" />';
+            var mysack = new sack("<?php echo $this->plugurl; ?>ajax.php" );
+            mysack.execute = 1;
+            mysack.method = 'POST';
+            mysack.setVar( 'action', 'save_settings' );
+            mysack.setVar( 'dsfaq_h1', dsfaq_h1 );
+            mysack.setVar( 'dsfaq_h2', dsfaq_h2 );
+            mysack.setVar( 'dsfaq_css', dsfaq_css );
+            mysack.setVar( 'dsfaq_copyr', dsfaq_copyr );
+            mysack.onError = function() { alert('Ajax error. [Error id: 8]' )};
+            mysack.runAJAX();
+            return true;
+        }
+        function dsfaq_restore_settings(){
+            document.getElementById("dsfaq_progress").innerHTML = '<img src="<?php echo $this->plugurl; ?>img/ajax-loader.gif" />';
+            var mysack = new sack("<?php echo $this->plugurl; ?>ajax.php" );
+            mysack.execute = 1;
+            mysack.method = 'POST';
+            mysack.setVar( 'action', 'restore_settings' );
+            mysack.onError = function() { alert('Ajax error. [Error id: 9]' )};
+            mysack.runAJAX();
+            return true;
+        }
+        //]]>
+        </script>
+
+
 <div class="wrap">
    <div id="wp_ds_faq_plus_admin_menu">
 	<h2><?php _e('WP DS FAQ Plus Admin Settings', 'wp-ds-faq'); ?></h2>
