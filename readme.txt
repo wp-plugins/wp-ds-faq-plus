@@ -3,7 +3,7 @@ Contributors: kimipooh
 Tags: faq, answer, question, documentation, pages, page, ajax
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 1.0.16
+Stable tag: 1.0.17
 
 WP DS FAQ Plus is the plugin which was improved based on WP DS FAQ 1.3.3. 
  
@@ -130,6 +130,9 @@ Establishment of admin menu for FAQ in the Settings.
 
 = 1.0.16 (January 10, 2013) =
 - (Fixed) "Header and CSS Settings" in the"Admin Settings" cannot be saved or restored.
+
+= 1.0.17 (January 10, 2013) =
+- (Fixed) In case of using PHP version 5.2, "Call to undefined method DateTime::setTimestamp()" error was appeared.
 
 == Upgrade Notice ==
 

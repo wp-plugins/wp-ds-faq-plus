@@ -132,6 +132,8 @@ Author URI: http://kitaney.jp/~kitani/
 [1.0.16]: 2013.01.10
 -（修正）環境設定画面にて「ヘッダとカスケード（CSS）」設定の保存や復元ができなくなっていた件を修正
 
+[1.0.17]: 2013.01.10
+-（修正）PHP5.2を利用していた場合、「Call to undefined method DateTime::setTimestamp()」とエラーがでる問題を修正
 
 ■今後の課題（目標）
 
