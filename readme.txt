@@ -47,7 +47,7 @@ When this plugin is deactivated and "WP DS FAQ" is activated, the special functi
 
 == Changelog ==
 
-= 1.0.18 (December 10, 2013) =
+= 1.0.18 (December 11, 2013) =
 - Tested up to WordPress 3.7.1.
 
 = 1.0.17 (January 10, 2013) =
