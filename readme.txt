@@ -2,7 +2,7 @@
 Contributors: kimipooh
 Tags: faq, answer, question, documentation, pages, page, ajax
 Requires at least: 3.0
-Tested up to: 3.4.1
+Tested up to: 3.4.2
 Stable tag: 1.0.14
 
 WP DS FAQ Plus is the plugin which was improved based on WP DS FAQ 1.3.3. 
