@@ -2,8 +2,8 @@
 Contributors: kimipooh
 Tags: faq, answer, question, documentation, pages, page, ajax
 Requires at least: 3.0
-Tested up to: 3.7.1
-Stable tag: 1.0.18
+Tested up to: 3.8
+Stable tag: 1.1.0
 
 WP DS FAQ Plus is the plugin which was improved based on WP DS FAQ 1.3.3. 
  
@@ -46,6 +46,9 @@ When this plugin is deactivated and "WP DS FAQ" is activated, the special functi
 5. Edit Menu.
 
 == Changelog ==
+
+= 1.1.0 (December 12, 2013) =
+- Tested up to WordPress 3.8
 
 = 1.0.18 (December 11, 2013) =
 - Tested up to WordPress 3.7.1.
