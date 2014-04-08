@@ -1,7 +1,7 @@
 Plugin Name: WP DS FAQ Plus
 Plugin URI: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_ja.html
 Description: WP DS FAQ 1.3.3をベースに、セキュリティ対策(SQLインジェクション対策やCSRF対策等含む）も含め様々な拡張（管理画面のSSL対応）をしています。もちろん日本語への翻訳もしています。
-Version: 1.0.15
+Version: 1.0.14 (September 22, 2011)
 Author: Kimiya Kitani
 Author URI: http://kitaney.jp/~kitani/
 
@@ -126,8 +126,6 @@ Author URI: http://kitaney.jp/~kitani/
         問題を解決（なお表示されても正しく処理はされていました）
 -（改善）最新リスト表示のうち「table」フォーマットについて、各項目のタイトル表示をするように変更
 
-[1.0.15]: 2012.12.11
--（修正）Copyright情報の訂正
 
 
 ■今後の課題（目標）

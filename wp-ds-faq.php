@@ -3,7 +3,7 @@
 Plugin Name: WP DS FAQ Plus
 Plugin URI: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html
 Description: WP DS FAQ Plus is the expand of WP DS FAQ  plugin. The plugin bases on WP DS FAQ 1.3.3. This plugin includes the fixed some issues (Quotation and Security, such as SQL Injection and CSRF. ) , Japanese translation, improvement of interface, and SSL Admin setting.
-Version: 1.0.15 (December 11, 2012)
+Version: 1.0.14 (September 22, 2011)
 Author: Kimiya Kitani
 Author URI: http://kitaney.jp/~kitani/
 */
@@ -60,7 +60,7 @@ class dsfaq{
         $this->wp_ds_faq_plus_default_array['wp_ds_faq_plus_db_ver']   = '0.1'; // 2011.08.29 (1.0.12) Add custom_mode to dsfaq_name table for custom sort.
         $this->wp_ds_faq_default_array['wp_ds_faq_showcopyright'] = true;
         $this->wp_ds_faq_default_array['wp_ds_faq_ver']           = '133'; // 2011.08.22 (1.0.10): Change 132 to 133
-        $this->wp_ds_faq_plus_default_array['wp_ds_faq_plus_ver']      = '1015'; // 2011.08.29 (1.0.12): Version 
+        $this->wp_ds_faq_plus_default_array['wp_ds_faq_plus_ver']      = '1014'; // 2011.08.29 (1.0.12): Version 
         $this->wp_ds_faq_default_array['wp_ds_faq_h1']            = '<h3>';
         $this->wp_ds_faq_default_array['wp_ds_faq_h2']            = '</h3>';
         $this->wp_ds_faq_default_array['wp_ds_faq_css']           = "<style type='text/css'>\n".
@@ -599,8 +599,8 @@ class dsfaq{
 
                 }
             }
-			// 2012.12.11 (1.0.15)
-            if ($settings['wp_ds_faq_showcopyright'] == true){$results .= '<br><a class="dsfaq_copyright" href="http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html">&copy; Kimiya Kitani</a>';};
+
+            if ($settings['wp_ds_faq_showcopyright'] == true){$results .= '<br><a class="dsfaq_copyright" href="http://wp-plugins.diamondsteel.ru/wp-ds-faq/">FAQ engine from DiamondSteel</a>';};
 
     // 1.0.4: CSRF対策 (2011.04.07) Kitani。mt_randについてはPHP4.2.0以降では srand不要。自動で処理されるから
    // ショートコードでの表示用（ここでも編集するんでね）
@@ -878,11 +878,11 @@ class dsfaq{
 			
      <fieldset style="border:1px solid #777777; width: 695px; padding-left: 6px;">
         <legend><h3><?php _e('Linkage from other plugins', 'wp-ds-faq');  ?></h3></legend>
-			<h4><input type="checkbox" name="wp_dsfaq_plus_enable_ratings" id="wp_dsfaq_plus_enable_ratings" value="1"<?php if(isset($settings['wp_dsfaq_plus_enable_ratings']) && $settings['wp_dsfaq_plus_enable_ratings'] ) echo ' checked';?><?php if( !function_exists('the_ratings') || ! $this->settings_admin_permission ) echo ' disabled'; ?> /><?php if(!function_exists('the_ratings') ) echo ' (' . __('Please install or activate WP-PostRatings plugin.', 'wp-ds-faq') . ')'; ?> 
-			    <?php _e('Enable Ratings Display.','wp-ds-faq'); ?> <?php if(function_exists('the_ratings')) _e('(WP-PostRatings plugin is already activated.)','wp-ds-faq');?></h4>
+			<h4><input type="checkbox" name="wp_dsfaq_plus_enable_ratings" id="wp_dsfaq_plus_enable_ratings" value="1"<?php if(isset($settings['wp_dsfaq_plus_enable_ratings']) && $settings['wp_dsfaq_plus_enable_ratings'] ) echo ' checked';?><?php if( !function_exists('the_ratings') || ! $this->settings_admin_permission ) echo ' disabled'; ?> /><?php if(!function_exists('the_ratings') ) echo ' (' . __('Please install or activate WP-PostRating plugin', 'wp-ds-faq') . ')'; ?> 
+			    <?php _e('Enable Ratings Display','wp-ds-faq'); ?> <?php if(function_exists('the_ratings')) _e('(WP-PostRating plugin is already enabled.)','wp-ds-faq');?></h4>
 			<ul>
-				<li><?php _e('First, please install and activate WP-PostRatings plugin.','wp-ds-faq'); ?></li>
-		  		<li><?php _e('By enabling this option, the rating button in WP-PostRatings plugin can be displayed in each FAQ messages.','wp-ds-faq');?></li>
+				<li><?php _e('First, please install and activate WP-PostRating plugin','wp-ds-faq'); ?></li>
+		  		<li><?php _e('By enabling this option, the rating button in WP-PostRatings plugin can be displayed in each FAQ messages','wp-ds-faq');?></li>
 		  	</ul>
 		  	
 			<?php if($this->settings_admin_permission){ ?>
