@@ -8,6 +8,9 @@ Author URI: http://kitaney.jp/~kitani/
 
 ■変更点
 
+[1.2.1]: 2014.5.9
+-（確認）WordPress 3.9.1で動作確認しました。
+
 [1.2.0]: 2014.4.8
 -（確認）WordPress 3.9で動作確認しました。
 
