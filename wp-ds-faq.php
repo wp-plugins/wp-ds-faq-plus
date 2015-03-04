@@ -3,7 +3,7 @@
 Plugin Name: WP DS FAQ Plus
 Plugin URI: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html
 Description: WP DS FAQ Plus is the expand of WP DS FAQ  plugin. The plugin bases on WP DS FAQ 1.3.3. This plugin includes the fixed some issues (Quotation and Security, such as SQL Injection and CSRF. ) , Japanese translation, improvement of interface, and SSL Admin setting.
-Version: 1.2.2
+Version: 1.2.3
 Author: Kimiya Kitani
 Author URI: http://kitaney.jp/~kitani/
 */
