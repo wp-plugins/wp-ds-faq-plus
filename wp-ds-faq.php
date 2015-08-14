@@ -3,7 +3,7 @@
 Plugin Name: WP DS FAQ Plus
 Plugin URI: http://kitaney.jp/~kitani/tools/wordpress/wp-ds-faq-plus_en.html
 Description: WP DS FAQ Plus is the expand of WP DS FAQ  plugin. The plugin bases on WP DS FAQ 1.3.3. This plugin includes the fixed some issues (Quotation and Security, such as SQL Injection and CSRF. ) , Japanese translation, improvement of interface, and SSL Admin setting.
-Version: 1.2.3
+Version: 1.2.4
 Author: Kimiya Kitani
 Author URI: http://kitaney.jp/~kitani/
 */
@@ -60,7 +60,7 @@ class dsfaq{
         $this->wp_ds_faq_plus_default_array['wp_ds_faq_plus_db_ver']   = '0.1'; // 2011.08.29 (1.0.12) Add custom_mode to dsfaq_name table for custom sort.
         $this->wp_ds_faq_default_array['wp_ds_faq_showcopyright'] = true;
         $this->wp_ds_faq_default_array['wp_ds_faq_ver']           = '133'; // 2011.08.22 (1.0.10): Change 132 to 133
-        $this->wp_ds_faq_plus_default_array['wp_ds_faq_plus_ver']      = '1210'; // 2011.08.29 (1.0.12): Version 
+        $this->wp_ds_faq_plus_default_array['wp_ds_faq_plus_ver']      = '1240'; // 2011.08.29 (1.0.12): Version 
         $this->wp_ds_faq_default_array['wp_ds_faq_h1']            = '<h3>';
         $this->wp_ds_faq_default_array['wp_ds_faq_h2']            = '</h3>';
         $this->wp_ds_faq_default_array['wp_ds_faq_css']           = "<style type='text/css'>\n".
